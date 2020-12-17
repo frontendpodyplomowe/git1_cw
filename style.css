@@ -1,19 +1,35 @@
-
 body {
-    background-image: url(https://cdn.pixabay.com/photo/2020/03/24/11/21/winter-4963715_1280.jpg);
-    background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2020/03/24/11/21/winter-4963715_1280.jpg);
+  background-size: cover;
 }
 
-p{
-    background-color: green;
-    border: 5px solid blue;
-    font-size: 15px;
+p {
+  background-color: green;
+  border: 5px solid blue;
+  font-size: 15px;
 }
 
-p:first-child{
-    border: 5px solid rgb(236, 149, 66);
+p:first-child {
+  border: 5px solid rgb(236, 149, 66);
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+}
+
+.sun img {
+  display: block;
+  margin: 0 auto;
+  height: 30vh;
+  cursor: pointer;
+  transition: 3s;
+}
+
+.sun h1 {
+  color: yellow;
+}
+
+.sun img:hover {
+  opacity: 0;
+  transform: rotate(360deg);
 }
